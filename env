@@ -1,0 +1,4 @@
+#!/bin/bash -l
+
+# Execute the commands passed to this script
+chruby-exec ruby -- $@

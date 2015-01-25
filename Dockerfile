@@ -10,4 +10,5 @@ ADD . /app
 
 WORKDIR /app
 EXPOSE 3000
+ENTRYPOINT ["/app/env"]
 CMD ["bundle exec ruby /app/server.rb"]
