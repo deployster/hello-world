@@ -5,5 +5,5 @@ set :port, 3000
 set :logging, true
 
 get "/" do
-  "Hello, world!"
+  "Hello, world! I am the latest version!"
 end
